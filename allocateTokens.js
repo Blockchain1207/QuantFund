@@ -1,4 +1,5 @@
 // this is purely for testing purposes
+//
 const Web3 = require('web3')
 const C20Contract = require('./build/contracts/C20.json')
 const Config = require('./truffle.js')
@@ -9,7 +10,7 @@ const provider = new Web3.providers.HttpProvider('http://' + host + ':' + port)
 
 const fundWallet = '0x311cfac8dbf0a58424fcdd8f825287ac9b16407d'
 // '0xd64de10c5284cfe62f174f7778fc88eccde2b4ad'
-const user1 = '0x7b8f86fda9323ee344887c06c0f197e2c3e162e3'
+// const user1 = '0x7b8f86fda9323ee344887c06c0f197e2c3e162e3'
 const user2 = '0xbed7ef659ca044468470aa9efe058a30742f09e6'
 const user3 = '0x83e55eefc7acd40927bbc92feec9256dd3cccb55'
 const user4 = '0x427f01e979e7fcd9a43292c574f9944e07c576f6'
