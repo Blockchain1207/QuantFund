@@ -1,4 +1,5 @@
 // this is purely for testing purposes
+//
 const Web3 = require('web3')
 const C20Contract = require('./build/contracts/C20.json')
 const Config = require('./truffle.js')
